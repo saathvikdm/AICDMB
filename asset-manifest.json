@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AICDMB/static/css/main.9985740d.chunk.css",
-    "main.js": "/AICDMB/static/js/main.67b02624.chunk.js",
-    "main.js.map": "/AICDMB/static/js/main.67b02624.chunk.js.map",
+    "main.js": "/AICDMB/static/js/main.d28c0f1c.chunk.js",
+    "main.js.map": "/AICDMB/static/js/main.d28c0f1c.chunk.js.map",
     "runtime-main.js": "/AICDMB/static/js/runtime-main.7162a813.js",
     "runtime-main.js.map": "/AICDMB/static/js/runtime-main.7162a813.js.map",
     "static/css/2.af3c1da9.chunk.css": "/AICDMB/static/css/2.af3c1da9.chunk.css",
     "static/js/2.577a9910.chunk.js": "/AICDMB/static/js/2.577a9910.chunk.js",
     "static/js/2.577a9910.chunk.js.map": "/AICDMB/static/js/2.577a9910.chunk.js.map",
     "index.html": "/AICDMB/index.html",
-    "precache-manifest.0c6f2d76a51585a4a0f2ebd6db60e5cb.js": "/AICDMB/precache-manifest.0c6f2d76a51585a4a0f2ebd6db60e5cb.js",
+    "precache-manifest.eade171d1348f5c53340d5bd8299fd7d.js": "/AICDMB/precache-manifest.eade171d1348f5c53340d5bd8299fd7d.js",
     "service-worker.js": "/AICDMB/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/AICDMB/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.9985740d.chunk.css.map": "/AICDMB/static/css/main.9985740d.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.577a9910.chunk.js",
     "static/css/main.9985740d.chunk.css",
-    "static/js/main.67b02624.chunk.js"
+    "static/js/main.d28c0f1c.chunk.js"
   ]
 }
