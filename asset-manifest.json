@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.9985740d.chunk.css",
-    "main.js": "/static/js/main.b8149cc4.chunk.js",
-    "main.js.map": "/static/js/main.b8149cc4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7dce5e48.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7dce5e48.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.577a9910.chunk.js": "/static/js/2.577a9910.chunk.js",
-    "static/js/2.577a9910.chunk.js.map": "/static/js/2.577a9910.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.e2d06c03afd03407bdd0da4483a9baec.js": "/precache-manifest.e2d06c03afd03407bdd0da4483a9baec.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.9985740d.chunk.css.map": "/static/css/main.9985740d.chunk.css.map",
-    "static/js/2.577a9910.chunk.js.LICENSE.txt": "/static/js/2.577a9910.chunk.js.LICENSE.txt"
+    "main.css": "/AICDMB/static/css/main.9985740d.chunk.css",
+    "main.js": "/AICDMB/static/js/main.67b02624.chunk.js",
+    "main.js.map": "/AICDMB/static/js/main.67b02624.chunk.js.map",
+    "runtime-main.js": "/AICDMB/static/js/runtime-main.7162a813.js",
+    "runtime-main.js.map": "/AICDMB/static/js/runtime-main.7162a813.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/AICDMB/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.577a9910.chunk.js": "/AICDMB/static/js/2.577a9910.chunk.js",
+    "static/js/2.577a9910.chunk.js.map": "/AICDMB/static/js/2.577a9910.chunk.js.map",
+    "index.html": "/AICDMB/index.html",
+    "precache-manifest.0c6f2d76a51585a4a0f2ebd6db60e5cb.js": "/AICDMB/precache-manifest.0c6f2d76a51585a4a0f2ebd6db60e5cb.js",
+    "service-worker.js": "/AICDMB/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/AICDMB/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.9985740d.chunk.css.map": "/AICDMB/static/css/main.9985740d.chunk.css.map",
+    "static/js/2.577a9910.chunk.js.LICENSE.txt": "/AICDMB/static/js/2.577a9910.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7dce5e48.js",
+    "static/js/runtime-main.7162a813.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.577a9910.chunk.js",
     "static/css/main.9985740d.chunk.css",
-    "static/js/main.b8149cc4.chunk.js"
+    "static/js/main.67b02624.chunk.js"
   ]
 }
