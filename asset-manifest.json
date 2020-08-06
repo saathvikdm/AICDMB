@@ -1,25 +1,33 @@
 {
   "files": {
-    "main.css": "/AICDMB/static/css/main.9985740d.chunk.css",
-    "main.js": "/AICDMB/static/js/main.d28c0f1c.chunk.js",
-    "main.js.map": "/AICDMB/static/js/main.d28c0f1c.chunk.js.map",
+    "main.css": "/AICDMB/static/css/main.a01086e3.chunk.css",
+    "main.js": "/AICDMB/static/js/main.83914ce7.chunk.js",
+    "main.js.map": "/AICDMB/static/js/main.83914ce7.chunk.js.map",
     "runtime-main.js": "/AICDMB/static/js/runtime-main.7162a813.js",
     "runtime-main.js.map": "/AICDMB/static/js/runtime-main.7162a813.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/AICDMB/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.577a9910.chunk.js": "/AICDMB/static/js/2.577a9910.chunk.js",
-    "static/js/2.577a9910.chunk.js.map": "/AICDMB/static/js/2.577a9910.chunk.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/AICDMB/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.97530530.chunk.js": "/AICDMB/static/js/2.97530530.chunk.js",
+    "static/js/2.97530530.chunk.js.map": "/AICDMB/static/js/2.97530530.chunk.js.map",
     "index.html": "/AICDMB/index.html",
-    "precache-manifest.eade171d1348f5c53340d5bd8299fd7d.js": "/AICDMB/precache-manifest.eade171d1348f5c53340d5bd8299fd7d.js",
+    "precache-manifest.50617aaff9864321b82f81b6036b2030.js": "/AICDMB/precache-manifest.50617aaff9864321b82f81b6036b2030.js",
     "service-worker.js": "/AICDMB/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/AICDMB/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.9985740d.chunk.css.map": "/AICDMB/static/css/main.9985740d.chunk.css.map",
-    "static/js/2.577a9910.chunk.js.LICENSE.txt": "/AICDMB/static/js/2.577a9910.chunk.js.LICENSE.txt"
+    "static/css/2.829c9cb5.chunk.css.map": "/AICDMB/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.a01086e3.chunk.css.map": "/AICDMB/static/css/main.a01086e3.chunk.css.map",
+    "static/js/2.97530530.chunk.js.LICENSE.txt": "/AICDMB/static/js/2.97530530.chunk.js.LICENSE.txt",
+    "static/media/acm.svg": "/AICDMB/static/media/acm.b39b2dd3.svg",
+    "static/media/aicdmb.png": "/AICDMB/static/media/aicdmb.551e87ec.png",
+    "static/media/aicte.png": "/AICDMB/static/media/aicte.691665a2.png",
+    "static/media/conference.svg": "/AICDMB/static/media/conference.782451e6.svg",
+    "static/media/confspeaker1.svg": "/AICDMB/static/media/confspeaker1.14edfdd9.svg",
+    "static/media/papers.svg": "/AICDMB/static/media/papers.53609baf.svg",
+    "static/media/speakersvg.svg": "/AICDMB/static/media/speakersvg.dfd46931.svg",
+    "static/media/vvce.png": "/AICDMB/static/media/vvce.4bce1601.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7162a813.js",
-    "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.577a9910.chunk.js",
-    "static/css/main.9985740d.chunk.css",
-    "static/js/main.d28c0f1c.chunk.js"
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.97530530.chunk.js",
+    "static/css/main.a01086e3.chunk.css",
+    "static/js/main.83914ce7.chunk.js"
   ]
 }
