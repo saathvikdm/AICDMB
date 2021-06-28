@@ -1,14 +1,14 @@
 import React from "react";
 import "./BodyStyles.css";
-import Confspeaker from "./assets/confspeaker1.svg";
+// import Confspeaker from "./assets/confspeaker1.svg";
 import Speakersvg from "./assets/speakersvg.svg";
 
 import Hong from "./assets/speakers/honglin.jpg";
 import Anand from "./assets/speakers/anand.jpg";
 import Heena from "./assets/speakers/heena.jpg";
 import "./SpeakerStyle.css";
-import Speakersvg from "./assets/speakersvg.svg";
-import Paolo from "./assets/speakers/paolo.jpg";
+// import Speakersvg from "./assets/speakersvg.svg";
+// import Paolo from "./assets/speakers/paolo.jpg";
 const Speakers = () => {
   return (
     <div className="speakers-section">

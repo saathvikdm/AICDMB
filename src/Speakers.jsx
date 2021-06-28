@@ -3,7 +3,7 @@ import Hong from "./assets/speakers/honglin.jpg";
 import Anand from "./assets/speakers/anand.jpg";
 import Heena from "./assets/speakers/heena.jpg";
 import "./SpeakerStyle.css";
-import Speakersvg from "./assets/speakersvg.svg";
+// import Speakersvg from "./assets/speakersvg.svg";
 import Paolo from "./assets/speakers/paolo.jpg";
 
 const Speakers = () => {
