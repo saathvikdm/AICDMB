@@ -20,7 +20,7 @@ const Masthead = () => {
 
   return (
     <div className="bd-masthead">
-      <div className="fullBanner" id="banner">
+      {/* <div className="fullBanner" id="banner">
         Alert! Paper Submission Final Deadline has been extended until December
         15, 2020
         <FontAwesomeIcon
@@ -28,7 +28,7 @@ const Masthead = () => {
           icon={faTimes}
           onClick={handleClose}
         />
-      </div>
+      </div> */}
       <div className="container">
         <div className="row">
           <div className="col-6 mx-auto my-auto col-md-4 order-md-2">
@@ -41,17 +41,17 @@ const Masthead = () => {
             />
           </div>
           <div className="col-md-8 order-md-1 text-center middle-align text-md-left pr-md-5">
-            <img
+            {/* <img
               className="mt-lg-ed5"
               src={Aicte}
               alt=""
               height="100px"
               width="100px"
-            />
-            <h1 className="spons-text mt-2">AICTE Sponsored</h1>
-            <h1 className="mb-1 mastHead lead-text">AICDMB 2021</h1>
+            /> */}
+            {/* <h1 className="spons-text mt-2">AICTE Sponsored</h1> */}
+            <h1 className="mb-1 mastHead lead-text">AICDMB 2022</h1>
             <h2 className="desc">
-              <span className="custom-text-col">Second</span> Annual
+              <span className="custom-text-col">Third</span> Annual
               International Conference on Data Science, Machine Learning and
               Blockchain Technology
             </h2>
@@ -75,7 +75,7 @@ const Masthead = () => {
         <div className="row details-block">
           <div className="col-6 details mt-3">
             <h5 className="details-head">WHEN</h5>
-            <h3 className="details-text">Feburary 15 and 16, 2021</h3>
+            <h3 className="details-text">Feburary 15 & 16, 2022</h3>
           </div>
           <div className="col-6 details mt-3">
             <h5 className="details-head">WHERE</h5>
@@ -128,7 +128,7 @@ const Masthead = () => {
                 <img src={Acm} alt="" height="100px" width="100px" />
               </a>
             </div>
-            <div className="col- mx-2">
+            {/* <div className="col- mx-2">
               <a
                 href="https://www.iop.org/"
                 target="_blank"
@@ -145,7 +145,7 @@ const Masthead = () => {
                 width="170px"
                 style={{ transform: "translateY(-10px)" }}
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

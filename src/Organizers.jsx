@@ -23,7 +23,6 @@ import Web_cc_1 from "./assets/faculty/Committee Asset/BG-R/web_cc_1.jpg";
 import Web_cc_4 from "./assets/faculty/Committee Asset/BG-R/web_cc_4.jpg";
 import Web_cc_3 from "./assets/faculty/Committee Asset/BG-R/web_cc_3.jpg";
 // import Publication from "./publication";
-import Anil_aicte from "./assets/faculty/Committee Asset/Patrons/Anil_AICTE.jpg";
 import Vvs_prez from "./assets/faculty/Committee Asset/Patrons/vvs_prez.jpg";
 import Vvs_vp from "./assets/faculty/Committee Asset/Patrons/vvs_viceprez.jpg";
 import Vvs_secy from "./assets/faculty/Committee Asset/Patrons/vvs_secy.jpg";
@@ -35,21 +34,6 @@ const Organizers = () => {
       <h1 className="display-5 text-center mt-5">Patrons</h1>
       <hr className="ruler" style={{ width: "50px" }} />
       <div class="profile-card-container">
-        <div class="profile-card" style={{ height: "420px" }}>
-          <div class="profileImage">
-            <img
-              src={Anil_aicte}
-              alt=""
-              className="staff-img"
-              style={{ height: "220px" }}
-            />
-          </div>
-          <div class="profileHead">
-            <h4 class="profileHeadText">Dr. Anil D Sahasrabudhe</h4>
-            {/* <h5 className="text-center">General Chair</h5> */}
-            <p className="speaker-desc text-center">Chairman, AICTE</p>
-          </div>
-        </div>
         <div class="profile-card" style={{ height: "420px" }}>
           <div class="profileImage">
             <img src={Vvs_prez} alt="" className="staff-img" />
@@ -148,7 +132,7 @@ const Organizers = () => {
         </div>
       </div>
       <div className="container">
-        <h1 className="display-5 text-center mt-5">Organizing Committee</h1>
+        {/* <h1 className="display-5 text-center mt-5">Organizing Committee</h1>
         <hr className="ruler" />
         <h4 className="display-5 text-center mt-5">Publication Co-Chairs</h4>
         <hr className="ruler_custom" />
@@ -300,7 +284,7 @@ const Organizers = () => {
               </small>
             </div>
           </div> */}
-          <div className="col-6 col-sm-3 pb-4 staff-card">
+          {/* <div className="col-6 col-sm-3 pb-4 staff-card">
             <div className="d-flex flex-column align-items-center">
               <img
                 src={Web_cc_3}
@@ -465,7 +449,7 @@ const Organizers = () => {
               </small>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <h1 className="display-5 text-center mt-5">
           Advisory and Review Committee
