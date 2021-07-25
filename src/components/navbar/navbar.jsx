@@ -3,6 +3,9 @@ import "./NavStyles.css";
 import Logo from "../../assets/aicdmb.png";
 import "./CustomStyle.css";
 import { NavLink, Link } from "react-router-dom";
+import { Dropdown, Button } from "react-bootstrap";
+
+
 
 class Navbar extends Component {
   state = {
@@ -46,7 +49,7 @@ class Navbar extends Component {
             >
               <NavLink activeClassName="active" to="/" exact>
                 <li>
-                  <a>Home</a>
+                  Home
                 </li>
               </NavLink>
               <li>
@@ -64,7 +67,7 @@ class Navbar extends Component {
               <li>
                 <a
                   href="https://publishingsupport.iopscience.iop.org/author-guidelines-for-conference-proceedings/"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   Author Guidelines
                 </a>
@@ -72,18 +75,21 @@ class Navbar extends Component {
               <li>
                 <Link to="/register">Registration</Link>
               </li>
-              <NavLink activeClassName="active" to="/aicdmb20" exact>
-                <li>
-                  <a>AICDMB 2019-20</a>
-                </li>
-              </NavLink>
               <li>
-                <Link
-                  to="/papers"
-                  className="btn-alt"
-                  style={{ color: "#fff" }}
-                >
-                  Call for Papers
+                <Dropdown style={{paddingBottom: "10px"}}>
+                  <Dropdown.Toggle variant="success" id="dropdown-basic">
+                    Previous Conferences
+                  </Dropdown.Toggle>
+
+                  <Dropdown.Menu>
+                    <Dropdown.Item href="#/action-1"><Link style={{color: "#000"}} to="/aicdmb20">AICDMB 2020</Link></Dropdown.Item>
+                    <Dropdown.Item href="#/action-2"><Link style={{color: "#000"}} to="/aicdmb21">AICDMB 2021</Link></Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
+              </li>
+              <li>
+                <Link to="/papers">
+                  <Button>Call for Papers</Button>
                 </Link>
               </li>
             </div>

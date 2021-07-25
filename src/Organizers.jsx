@@ -5,28 +5,23 @@ import Princi from "./assets/faculty/princ.png";
 import Gururaj from "./assets/faculty/gururaj.png";
 import Hod from "./assets/faculty/rkumar.png";
 import Rnd from "./assets/faculty/rnd.png";
-import Fin_cc_1 from "./assets/faculty/Committee Asset/BG-R/fin_cc_1.jpg";
-import Fin_cc_2 from "./assets/faculty/Committee Asset/BG-R/fin_cc_2.jpg";
-import Pub_cc_1 from "./assets/faculty/Committee Asset/BG-R/pub_cc_1.jpg";
-import Pub_cc_2 from "./assets/faculty/Committee Asset/BG-R/pub_cc_2.jpg";
-import Pub_cc_3 from "./assets/faculty/Committee Asset/BG-R/pub_cc_3.jpg";
-import Publ_cc_1 from "./assets/faculty/Committee Asset/BG-R/publ_cc_1.jpg";
-import Publ_cc_2 from "./assets/faculty/Committee Asset/BG-R/publ_cc_2.jpg";
-import Publ_cc_3 from "./assets/faculty/Committee Asset/BG-R/publ_cc_3.jpg";
-import Reg_cc_1 from "./assets/faculty/Committee Asset/BG-R/reg_cc_1.jpg";
 import Reg_cc_2 from "./assets/faculty/Committee Asset/BG-R/reg_cc_2.jpg";
-import Reg_cc_3 from "./assets/faculty/Committee Asset/BG-R/reg_cc_3.jpg";
+
 import Spon_cc_1 from "./assets/faculty/Committee Asset/BG-R/spon_cc_1.jpg";
 import Spon_cc_2 from "./assets/faculty/Committee Asset/BG-R/spon_cc_2.jpg";
-import Web_cc_1 from "./assets/faculty/Committee Asset/BG-R/web_cc_1.jpg";
-// import Web_cc_2 from "./assets/faculty/Committee Asset/BG-R/web_cc_2.jpg";
-import Web_cc_4 from "./assets/faculty/Committee Asset/BG-R/web_cc_4.jpg";
+
+import Scs from "./assets/faculty/Committee Asset/BG-R/scs.jpg";
+import Dcs from "./assets/faculty/Committee Asset/BG-R/dcs.jpg";
+import Rcs from "./assets/faculty/Committee Asset/BG-R/rcs.jpg";
+import Ppr from "./assets/faculty/Committee Asset/BG-R/ppr.jpg";
+
 import Web_cc_3 from "./assets/faculty/Committee Asset/BG-R/web_cc_3.jpg";
-// import Publication from "./publication";
 import Vvs_prez from "./assets/faculty/Committee Asset/Patrons/vvs_prez.jpg";
 import Vvs_vp from "./assets/faculty/Committee Asset/Patrons/vvs_viceprez.jpg";
 import Vvs_secy from "./assets/faculty/Committee Asset/Patrons/vvs_secy.jpg";
 import Vvs_tres from "./assets/faculty/Committee Asset/Patrons/vvs_tres.jpg";
+
+import Staffcard from "./components/Staffcard";
 
 const Organizers = () => {
   return (
@@ -130,332 +125,33 @@ const Organizers = () => {
             </p>
           </div>
         </div>
+        
       </div>
       <div className="container">
-        {/* <h1 className="display-5 text-center mt-5">Organizing Committee</h1>
-        <hr className="ruler" />
-        <h4 className="display-5 text-center mt-5">Publication Co-Chairs</h4>
-        <hr className="ruler_custom" />
-        <div className="row_center">
-          <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Publ_cc_1}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Dr. Ramakrishna Hegde</div>
-              <small class="staff-designation text-center">
-                Associate Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Publication Co-Chair
-              </small>
-            </div>
-          </div>
-          <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Pub_cc_3}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Prof. Pooja M R</div>
-              <small class="staff-designation text-center">
-                Associate Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Publication Co-Chair
-              </small>
-            </div>
-          </div>
-          <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Publ_cc_3}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Prof. Anusha K S</div>
-              <small class="staff-designation text-center">
-                Assistant Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Publication Co-Chair
-              </small>
-            </div>
-          </div>
+        <div className="row_center mt-5">
+          <Staffcard img={Spon_cc_1} name="Dr. Janhavi V" designation="Associate Professor, VVCE" qualification="Publication Co-Chair" />
+          <Staffcard img={Scs} name="Prof. Shraddha C" designation="Associate Professor, VVCE" qualification="Publication Co-Chair" />
+          <Staffcard img={Dcs} name="Prof. Divya C D" designation="Associate Professor, VVCE" qualification="Publication Co-Chair" />
+          <Staffcard img={Rcs} name="Prof. Radhika A D" designation="Assistant Professor, VVCE" qualification="Publication Co-Chair" />
+          <Staffcard img={Web_cc_3} name="Prof. Rakesh K R" designation="Assistant Professor, VVCE" qualification="Publication Co-Chair" />
+          <Staffcard img={Reg_cc_2} name="Prof. Harshitha K" designation="Assistant Professor, VVCE" qualification="Publication Co-Chair" />
+          <Staffcard img={Spon_cc_2} name="Prof. Swathi B H" designation="Assistant Professor, VVCE" qualification="Publication Co-Chair" />
+          <Staffcard img={Ppr} name="Prof. Pruthvi P R" designation="Assistant Professor, VVCE" qualification="Publication Co-Chair" />
         </div>
-        <h4 className="display-5 text-center mt-5">
-          Publicity and Presentation Co-Chairs
-        </h4>
-        <hr className="ruler_custom" />
-        <div className="row_center">
-          <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Pub_cc_1}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Dr. Aditya C R</div>
-              <small class="staff-designation text-center">
-                Associate Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Publicity and Presentation Co-Chair
-              </small>
-            </div>
-          </div>
-
-          <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Publ_cc_2}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Prof. Pavan Kumar S P</div>
-              <small class="staff-designation text-center">
-                Assistant Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Publicity and Presentation Co-Chair
-              </small>
-            </div>
-          </div>
-          <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Pub_cc_2}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Prof. Nithin Kumar</div>
-              <small class="staff-designation text-center">
-                Assistant Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Publicity and Presentation Co-Chair
-              </small>
-            </div>
-          </div>
-        </div>
-        <h4 className="display-5 text-center mt-5">Web Co-Chairs</h4>
-        <hr className="ruler_custom" />
-        <div className="row_center">
-          <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Web_cc_1}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Dr. Natesh M</div>
-              <small class="staff-designation text-center">
-                Associate Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Web Co-Chair
-              </small>
-            </div>
-          </div>
-          {/* <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Web_cc_2}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Prof. Sachin D N</div>
-              <small class="staff-designation text-center">
-                Assistant Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Web Co-Chair
-              </small>
-            </div>
-          </div> */}
-          {/* <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Web_cc_3}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Prof. Rakesh K R</div>
-              <small class="staff-designation text-center">
-                Assistant Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Web Co-Chair
-              </small>
-            </div>
-          </div>
-          <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Web_cc_4}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Prof. Shashank N</div>
-              <small class="staff-designation text-center">
-                Assistant Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Web Co-Chair
-              </small>
-            </div>
-          </div>
-        </div>
-        <h4 className="display-5 text-center mt-5">Sponsorship Co-Chairs</h4>
-        <hr className="ruler_custom" />
-        <div className="row_center">
-          <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Spon_cc_1}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Prof. Janhavi V</div>
-              <small class="staff-designation text-center">
-                Associate Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Sponsorship Co-Chair
-              </small>
-            </div>
-          </div>
-          <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Spon_cc_2}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Prof. Swathi B H</div>
-              <small class="staff-designation text-center">
-                Assistant Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Sponsorship Co-Chair
-              </small>
-            </div>
-          </div>
-        </div>
-        <h4 className="display-5 text-center mt-5">Finance Co-Chairs</h4>
-        <hr className="ruler_custom" />
-        <div className="row_center">
-          <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Fin_cc_1}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Dr. Paramesha K</div>
-              <small class="staff-designation text-center">
-                Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Finance Co-Chair
-              </small>
-            </div>
-          </div>
-          <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Fin_cc_2}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Prof. Ravi P</div>
-              <small class="staff-designation text-center">
-                Assistant Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Finance Co-Chair
-              </small>
-            </div>
-          </div>
-        </div>
-        <h4 className="display-5 text-center mt-5">Registration Co-Chairs</h4>
-        <hr className="ruler_custom" />
-        <div className="row_center">
-          <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Reg_cc_1}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Prof. Hamsaveni M</div>
-              <small class="staff-designation text-center">
-                Assistant Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Registration Co-Chair
-              </small>
-            </div>
-          </div>
-          <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Reg_cc_2}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Prof. Harshitha K</div>
-              <small class="staff-designation text-center">
-                Assistant Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Registration Co-Chair
-              </small>
-            </div>
-          </div>
-          <div className="col-6 col-sm-3 pb-4 staff-card">
-            <div className="d-flex flex-column align-items-center">
-              <img
-                src={Reg_cc_3}
-                height="100px"
-                width="100px"
-                class="staff-img"
-              />
-              <div class="staff-name text-center">Prof. Chaya Kumari H A</div>
-              <small class="staff-designation text-center">
-                Assistant Professor, VVCE
-              </small>
-              <small class="staff-qualification text-center">
-                Registration Co-Chair
-              </small>
-            </div>
-          </div>
-        </div> */}
-
         <h1 className="display-5 text-center mt-5">
           Advisory and Review Committee
         </h1>
         <hr className="ruler" />
         <ul>
+          <li>
+            Dr. Hong Lin, Ph.D., Professor at University of Downtown, Houston
+          </li>
+          <li>
+            Dr. Heena Rathore, ACM Distinguished Speaker, Assistant Professor at University of Texas, USA
+          </li>
+          <li>
+          Dr. Paolo Trunfio, Ph.D., Associate Professor of Computer Engineering, University of Calabria, Italy
+          </li>
           <li>
             Dr. Fernando Koch, IBM GTS Innovation Senior Technical Solutions
             Manager; Eisenhower Fellow; ACM Distinguished Speaker.
@@ -507,6 +203,9 @@ const Organizers = () => {
         </h1>
         <hr className="ruler" />
         <ul className="mb-5">
+          <li>
+            Prof. Yu-Chen Hu, Professor, Providence University, Taiwan
+          </li>
           <li>
             Dr. Sandeep Chakraborty, Assistant Professor, Department of Computer
             Science and Engineering, Indian Institute of Technology Kharagpur,

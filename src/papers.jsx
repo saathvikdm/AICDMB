@@ -27,25 +27,25 @@ const PapersPage = () => {
               The soft copy of full length manuscripts shall be shared in .PDF
               format through the Easy Chair Account.
             </p>
-            <table class="table table-dark mt-4">
-              <tbody>
+            <table class="table table-light mt-4">
+            <tbody>
                 <tr>
-                  <td>Paper Submission Final Deadline</td>
+                  <td>Paper Submission Deadline</td>
                   <td>
-                    <strike>November 15, 2020</strike> December 15, 2020
+                    October 20, 2021
                   </td>
                 </tr>
                 <tr>
                   <td>Paper Acceptance Notification</td>
-                  <td>December 15, 2020</td>
+                  <td>December 10, 2021</td>
                 </tr>
                 <tr>
-                  <td>Registration Deadline</td>
-                  <td>January 10, 2021</td>
+                  <td>Copyright and Final Paper Submission</td>
+                  <td>December 30, 2021</td>
                 </tr>
                 <tr>
                   <td>Conference Dates</td>
-                  <td>February 15 & 16, 2021</td>
+                  <td>February 16 & 17, 2022</td>
                 </tr>
               </tbody>
             </table>
