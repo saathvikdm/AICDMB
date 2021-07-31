@@ -1,10 +1,8 @@
 import React from "react";
-import Hong from "./assets/speakers/honglin.jpg";
-import Anand from "./assets/speakers/anand.jpg";
-import Heena from "./assets/speakers/heena.jpg";
 import "./SpeakerStyle.css";
+
+import Anand from "./assets/speakers/anand.jpg";
 import Placeholder from './assets/speakers/placeholder.jpg'
-import Paolo from "./assets/speakers/paolo.jpg";
 
 const Speakers = () => {
   return (

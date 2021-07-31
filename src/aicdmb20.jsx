@@ -3,7 +3,6 @@ import "./PrevStyles.css";
 import "./BodyStyles.css";
 import "./MastStyles.css";
 import Carousel from "react-bootstrap/Carousel";
-import Pic1 from "./assets/Prev images/1.jpg";
 import Pic2 from "./assets/Prev images/2.jpg";
 import Pic3 from "./assets/Prev images/3.jpg";
 import Pic4 from "./assets/Prev images/4.jpg";
