@@ -24,9 +24,9 @@ const Footer = () => {
             <li className="footer-link">
               <Link to="/register">Registration</Link>
             </li>
-            <li className="footer-link">
+            {/* <li className="footer-link">
               <Link to="/aicdmb20">AICDMB 2019-20</Link>
-            </li>
+            </li> */}
             <li className="footer-link">
               <Link to="/papers">Call for Papers</Link>
             </li>
@@ -39,7 +39,7 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <p
+          {/* <p
             className="footer-text text-center"
             style={{ opacity: "0.3", fontWeight: "100" }}
           >
@@ -67,7 +67,7 @@ const Footer = () => {
                 www.flaticon.com
               </a>
             </div>
-          </p>
+          </p> */}
           <p
             className="footer-text text-center"
             style={{ opacity: "0.5", fontWeight: "100" }}

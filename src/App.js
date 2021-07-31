@@ -1,7 +1,5 @@
 import React from "react";
 import "./App.css";
-import Header from "./header";
-import Posts from "./posts";
 import Home from "./Home";
 import Navbar from "./components/navbar/navbar";
 import { Switch, Route } from "react-router-dom";
@@ -14,6 +12,7 @@ import TopicsPage from "./topicspage";
 import Footer from "./Footer";
 import Organizers from "./Organizers";
 import Register from "./register";
+import Aicdmb21 from "./Aicdmb21";
 
 function App() {
   return (
@@ -37,6 +36,9 @@ function App() {
         </Route>
         <Route exact path="/aicdmb20">
           <Aicdmbold />
+        </Route>
+        <Route exact path="/aicdmb21">
+          <Aicdmb21 />
         </Route>
         <Route exact path="/">
           <Home />
