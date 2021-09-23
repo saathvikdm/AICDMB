@@ -57,9 +57,11 @@ const PapersPage = () => {
             {/* <h4>Submission and Registration begins soon.</h4> */}
             <p className="text-center">
               <a
-                href="https://bit.ly/aicdmb21submissions"
+                href="https://easychair.org/conferences/?conf=aicdmb2022"
                 class="text-center mb-4 mt-4 btn btn-alt mb-3 btn-border btn-border"
+                target="_blank"
                 rel="noopener noreferrer"
+                
               >
                 Submit Now!
               </a>

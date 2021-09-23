@@ -17,7 +17,7 @@ const Register = () => {
             <span className="reg-span">For</span>
             <li>UG / PG / PhD Scholars</li>
             <a
-              href="https://tinyurl.com/AICDMB-2021"
+              href="https://forms.gle/db4XRHH76jWcVqkEA"
               class="text-center mb-4 mt-4 btn btn-alt mb-3 btn-border btn-border"
             >
               Register
@@ -35,7 +35,7 @@ const Register = () => {
             <span>For</span>
             <li>Academicians / Industry Persons</li>
             <a
-              href="https://tinyurl.com/AICDMB-2021"
+              href="https://forms.gle/db4XRHH76jWcVqkEA"
               class="text-center mb-4 mt-4 btn btn-alt mb-3 btn-border btn-border"
             >
               Register

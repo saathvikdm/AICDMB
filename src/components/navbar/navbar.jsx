@@ -65,12 +65,7 @@ class Navbar extends Component {
                 <Link to="/publication">Publication</Link>
               </li>
               <li>
-                <a
-                  href="https://publishingsupport.iopscience.iop.org/author-guidelines-for-conference-proceedings/"
-                  target="_blank" rel="noopener noreferrer"
-                >
-                  Author Guidelines
-                </a>
+                <Link to="/guidelines">Author Guidelines</Link>
               </li>
               <li>
                 <Link to="/register">Registration</Link>

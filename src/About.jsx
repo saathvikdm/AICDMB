@@ -63,61 +63,7 @@ const About = () => {
           </div>
         </div>
       </div>
-
-      <div id="organizers" className="speakers-section">
-        <h1 className="display-5 text-center mt-5">Organizing Chairs</h1>
-        <hr className="ruler" />
-        <div class="profile-card-container">
-          <div class="profile-card" style={{ height: "450px" }}>
-            <div class="profileImage">
-              <img src={Princi} alt="" className="staff-img" />
-            </div>
-            <div class="profileHead">
-              <h4 class="profileHeadText">Dr. B. Sadashive Gowda</h4>
-              <h5 className="text-center">General Chair</h5>
-              <p className="speaker-desc text-center">Principal VVCE, Mysuru</p>
-            </div>
-          </div>
-          <div class="profile-card" style={{ height: "450px" }}>
-            <div class="profileImage">
-              <img src={Rnd} alt="" className="staff-img" />
-            </div>
-            <div class="profileHead">
-              <h4 class="profileHeadText">Dr. G.B. Krishnappa</h4>
-              <h5 className="text-center">General Co-Chair</h5>
-              <p className="speaker-desc text-center">
-                Dean (R&D) of VVCE, Mysuru
-              </p>
-            </div>
-          </div>
-          <div class="profile-card" style={{ height: "450px" }}>
-            <div class="profileImage">
-              <img src={Hod} alt="" className="staff-img" />
-            </div>
-            <div class="profileHead">
-              <h4 class="profileHeadText">Dr. Ravi Kumar V</h4>
-              <h5 className="text-center">Program Chair</h5>
-              <p className="speaker-desc text-center">
-                Professor and Head of Dept. of CSE, VVCE, Mysuru
-              </p>
-            </div>
-          </div>
-          <div class="profile-card" style={{ height: "450px" }}>
-            <div class="profileImage">
-              <img src={Gururaj} alt="" className="staff-img" />
-            </div>
-            <div class="profileHead">
-              <h4 class="profileHeadText">Dr. Gururaj H L</h4>
-              <h5 className="text-center">Program Co-Chair</h5>
-              <p className="speaker-desc text-center">
-                ACM Distinguished Speaker <br /> Associate Professor at Dept. of
-                CSE, VVCE, Mysuru
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      
       <div id="about" className="container about-section">
         <h1 className="display-5 text-center">About the Conference</h1>
         <hr className="ruler" />

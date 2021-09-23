@@ -14,12 +14,14 @@
 .logo {
   margin-right: auto;
   margin-left: 4%;
+  z-index: 99;
 }
 
 #navLink {
   display: flex;
   padding-top: 12px;
   align-items: baseline;
+  z-index: 99;
 }
 #navLink li {
   flex-direction: row;
@@ -27,6 +29,7 @@
   cursor: pointer;
   text-decoration: none;
   color: #fff;
+  z-index: 99;
 }
 
 #navLink li a {
