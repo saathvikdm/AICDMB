@@ -20,7 +20,7 @@ class Navbar extends Component {
   render() {
     const { toggle } = this.state;
     return (
-      <div>
+      <div style={{zIndex: '99'}}>
         <div className="flex-container">
           <ul className="uList">
             <li className="logo">
@@ -36,6 +36,7 @@ class Navbar extends Component {
               id="nav-icon"
               className={toggle ? "open" : null}
               onClick={this.openFunc}
+              style={{zIndex: '99'}}
             >
               <span></span>
               <span></span>
