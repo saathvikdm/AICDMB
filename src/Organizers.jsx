@@ -6,6 +6,7 @@ import Gururaj from "./assets/faculty/gururaj.png";
 import Hod from "./assets/faculty/rkumar.png";
 import Rnd from "./assets/faculty/rnd.png";
 import Reg_cc_2 from "./assets/faculty/Committee Asset/BG-R/reg_cc_2.jpg";
+import Bulent from './assets/faculty/Committee Asset/bulent.jpg'
 
 import Spon_cc_1 from "./assets/faculty/Committee Asset/BG-R/spon_cc_1.jpg";
 import Spon_cc_2 from "./assets/faculty/Committee Asset/BG-R/spon_cc_2.jpg";
@@ -80,19 +81,9 @@ const Organizers = () => {
         </div>
       </div>
 
-      <h1 className="display-5 text-center mt-5">Co-Patrons</h1>
+      <h1 className="display-5 text-center mt-5">Co-Patron</h1>
       <hr className="ruler" style={{ width: "50px" }} />
       <div class="profile-card-container">
-        <div class="profile-card" style={{ height: "420px" }}>
-          <div class="profileImage">
-            <img src={Fadi} alt="" className="staff-img" height="220px"/>
-          </div>
-          <div class="profileHead">
-            <h4 class="profileHeadText">Prof. Dr. Fadi Al-Turjman</h4>
-            {/* <h5 className="text-center">President, VVS</h5> */}
-            <p className="speaker-desc text-center">Rector</p>
-          </div>
-        </div>
         <div class="profile-card" style={{ height: "420px" }}>
           <div class="profileImage">
             <img src={Kurt} alt="" className="staff-img" />
@@ -106,7 +97,7 @@ const Organizers = () => {
       </div>
 
 
-      <h1 className="display-5 text-center mt-5">Organizing Chairs</h1>
+      <h1 className="display-5 text-center mt-5">General Co-Chairs</h1>
       <hr className="ruler" style={{ width: "200px" }} />
       <div class="profile-card-container">
         <div class="profile-card" style={{ height: "420px" }}>
@@ -131,6 +122,25 @@ const Organizers = () => {
             </p>
           </div>
         </div>
+        <div class="profile-card" style={{ height: "420px" }}>
+          <div class="profileImage">
+            <img src={Bulent} alt="" className="staff-img" height="100%" width="100%"/>
+          </div>
+          <div class="profileHead">
+            <h4 class="profileHeadText">Prof. Dr. Bülent BİLGEHAN</h4>
+            <h5 className="text-center">General Co-Chair</h5>
+            <p className="speaker-desc text-center">
+              Dean (R&D) of VVCE, Mysuru
+            </p>
+          </div>
+        </div>
+      </div>
+
+{/* publication co chair DR fadi */}
+
+      <h1 className="display-5 text-center mt-5">Program Chairs</h1>
+      <hr className="ruler" style={{ width: "200px" }} />
+      <div class="profile-card-container">
         <div class="profile-card" style={{ height: "420px" }}>
           <div class="profileImage">
             <img src={Hod} alt="" className="staff-img" />
@@ -158,7 +168,23 @@ const Organizers = () => {
         </div>
       </div>
 
-      <h1 className="display-5 text-center mt-5">General and Program Co-Chairs</h1>
+      <h1 className="display-5 text-center mt-5">Publication Co-Chair</h1>
+      <hr className="ruler" style={{ width: "200px" }} />
+      <div class="profile-card-container">
+        <div class="profile-card" style={{ height: "420px" }}>
+          <div class="profileImage">
+            <img src={Fadi} alt="" className="staff-img"  height="100%" width="100%"/>
+          </div>
+          <div class="profileHead">
+            <h4 class="profileHeadText">Prof. Dr. Fadi Al-Turjman</h4>
+            <p className="speaker-desc text-center">
+            Rector
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h1 className="display-5 text-center mt-5">Organizing Co-Chairs</h1>
       <hr className="ruler" style={{ width: "200px" }} />
       <div className="container">
         <div className="row_center mt-5">

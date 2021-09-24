@@ -51,13 +51,15 @@ const About = () => {
               </tbody>
             </table>
             <p className="text-center">
-              <Link
-                to="/papers"
-                class="text-center mt-4 btn btn-lg btn-alt btn-border btn-border"
-                onclick="#"
+              <a
+                href="https://easychair.org/conferences/?conf=aicdmb2022"
+                class="text-center mb-4 mt-4 btn btn-alt mb-3 btn-border btn-border"
+                target="_blank"
+                rel="noopener noreferrer"
+                
               >
                 Submit Now!
-              </Link>
+              </a>
             </p>
           </div>
         </div>

@@ -17,8 +17,7 @@ const Speakers = () => {
           <div class="profileHead pb-0 mb-1">
             <h4 class="profileHeadText">Dr. Francesco Flammini</h4>
             <p class="profileSmallDescription">
-            Professor of Computer Science
-Mälardalen University
+            University of Applied Sciences and Arts of Southern Switzerland (CH)
             </p>
           </div>
           <div class="profileContent">
