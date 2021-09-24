@@ -3,9 +3,10 @@ import "./components/navbar/CustomStyle.css";
 import Aicte from "./assets/aicte.png";
 import Acm from "./assets/ACMO.svg";
 import Vvce from "./assets/vvce.png";
-import Iop from "./assets/indexers/iop.svg";
+import Neu from "./assets/neuwt.png";
 import Cse from "./assets/indexers/cse.png";
-import Iict from "./assets/indexers/IICT.png";
+import AICDMB_BRAIN from './assets/AICDMB22_single.svg'
+import img1 from "./assets/Carousel Images/1.jpg";
 import "./MastStyles.css";
 import ExternalSolid from "./assets/external-link-alt-solid.svg";
 import { Link } from "react-router-dom";
@@ -31,14 +32,14 @@ const Masthead = () => {
         <div className="row">
           <div className="col-6 mx-auto my-auto col-md-4 order-md-2">
             <img
-              src="https://vvce.acm.org/Assets/aicdmb.png"
+              src={AICDMB_BRAIN}
               alt="aicdmb"
-              width="512"
-              height="430"
+              width="400"
+              height="400"
               className="lead-img img-fluid mb-3 mb-md-0"
             />
           </div>
-          <div className="col-md-8 order-md-1 text-center middle-align text-md-left pr-md-5">
+          <div className="col-md-8 order-md-1 text-center text-md-left pr-md-5">
             {/* <img
               className="mt-lg-ed5"
               src={Aicte}
@@ -68,12 +69,10 @@ const Masthead = () => {
                 Register
               </Link>
             </div>
-          </div>
-        </div>
-        <div className="row details-block">
+            <div className="row details-block text-left">
           <div className="col-6 details mt-3">
             <h5 className="details-head">WHEN</h5>
-            <h3 className="details-text">Feburary 16 & 17, 2022</h3>
+            <h3 className="details-text">February 16 & 17, 2022</h3>
           </div>
           <div className="col-6 details mt-3">
             <h5 className="details-head">WHERE</h5>
@@ -95,9 +94,9 @@ const Masthead = () => {
               </a>
             </h3>
           </div>
-        </div>
-        <div className="host-section">
-          <h1 className="spons-text mt-5">Hosted by</h1>
+          </div>
+          <div className="host-section">
+          <h1 className="spons-text text-left">Hosted by</h1>
           <div className="row">
             <div className="col- mx-2">
               <a
@@ -110,11 +109,11 @@ const Masthead = () => {
             </div>
             <div className="col-">
               <a
-                href="https://vvce.ac.in/department/computer-science-engineering/"
+                href="https://neu.edu.tr/?lang=en"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={Cse} alt="" height="100px" width="100px" />
+                <img src={Neu} alt="" height="100px" width="100px" />
               </a>
             </div>
             <div className="col- mx-2">
@@ -146,6 +145,10 @@ const Masthead = () => {
             </div> */}
           </div>
         </div>
+        </div>
+        
+        </div>
+        
       </div>
     </div>
   );

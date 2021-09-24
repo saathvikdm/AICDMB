@@ -19,14 +19,13 @@ const About = () => {
           {/* <div className="col-12 col-lg-5 order-md-1"><img src={Papers} alt="" height="100%" width="100%"/></div> */}
           <div className="cforp col-12">
             <p className="lead mt-4 text-justify">
-              AICDMB 2021 warmly invites full length original research papers
+              AICDMB 2022 warmly invites full length original research papers
               describing latest findings and research works to the conference
               from academic professionals, R&D organizations, government
               departments and research scholars from across the globe. The
               manuscripts must contribute original ideas and should not have
               been published in any journals, conference proceedings or
-              magazines and not under review in any of them. IOP manuscript
-              template to be used.
+              magazines and not under review in any of them.
               <br />
             </p>
             <table class="table table-light mt-4">
@@ -52,72 +51,20 @@ const About = () => {
               </tbody>
             </table>
             <p className="text-center">
-              <Link
-                to="/papers"
-                class="text-center mt-4 btn btn-lg btn-alt btn-border btn-border"
-                onclick="#"
+              <a
+                href="https://easychair.org/conferences/?conf=aicdmb2022"
+                class="text-center mb-4 mt-4 btn btn-alt mb-3 btn-border btn-border"
+                target="_blank"
+                rel="noopener noreferrer"
+                
               >
                 Submit Now!
-              </Link>
+              </a>
             </p>
           </div>
         </div>
       </div>
-
-      <div id="organizers" className="speakers-section">
-        <h1 className="display-5 text-center mt-5">Organizing Chairs</h1>
-        <hr className="ruler" />
-        <div class="profile-card-container">
-          <div class="profile-card" style={{ height: "450px" }}>
-            <div class="profileImage">
-              <img src={Princi} alt="" className="staff-img" />
-            </div>
-            <div class="profileHead">
-              <h4 class="profileHeadText">Dr. B. Sadashive Gowda</h4>
-              <h5 className="text-center">General Chair</h5>
-              <p className="speaker-desc text-center">Principal VVCE, Mysuru</p>
-            </div>
-          </div>
-          <div class="profile-card" style={{ height: "450px" }}>
-            <div class="profileImage">
-              <img src={Rnd} alt="" className="staff-img" />
-            </div>
-            <div class="profileHead">
-              <h4 class="profileHeadText">Dr. G.B. Krishnappa</h4>
-              <h5 className="text-center">General Co-Chair</h5>
-              <p className="speaker-desc text-center">
-                Dean (R&D) of VVCE, Mysuru
-              </p>
-            </div>
-          </div>
-          <div class="profile-card" style={{ height: "450px" }}>
-            <div class="profileImage">
-              <img src={Hod} alt="" className="staff-img" />
-            </div>
-            <div class="profileHead">
-              <h4 class="profileHeadText">Dr. Ravi Kumar V</h4>
-              <h5 className="text-center">Program Chair</h5>
-              <p className="speaker-desc text-center">
-                Professor and Head of Dept. of CSE, VVCE, Mysuru
-              </p>
-            </div>
-          </div>
-          <div class="profile-card" style={{ height: "450px" }}>
-            <div class="profileImage">
-              <img src={Gururaj} alt="" className="staff-img" />
-            </div>
-            <div class="profileHead">
-              <h4 class="profileHeadText">Dr. Gururaj H L</h4>
-              <h5 className="text-center">Program Co-Chair</h5>
-              <p className="speaker-desc text-center">
-                ACM Distinguished Speaker <br /> Associate Professor at Dept. of
-                CSE, VVCE, Mysuru
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      
       <div id="about" className="container about-section">
         <h1 className="display-5 text-center">About the Conference</h1>
         <hr className="ruler" />

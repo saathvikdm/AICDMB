@@ -6,21 +6,24 @@ import Compendex from './assets/indexers/comp.png'
 
 const Publication = () => {
     return ( 
-        <div>
+        <div className="publication">
             <div className="container about-section pt-3 mb-5">
                 {/* <h1 className="display-5 text-center">Publication</h1><hr className="ruler"/> */}
-                <div className="div-bg-col"><p className="display-3 text-center"><span className="color-red">IOP </span> Conference Series</p><hr className="ruler"/>
-                <p className="text-custom text-center">Material Science and Engineering</p>
+                
+                <h1 className="display-5 text-center mb-5">Publication</h1>
+                <div className="div-bg-col">
+                    <ul style={{fontSize: '1.3em'}}>
+                        <li>All the accepted and presented papers will be published in <span className="color-red">IOP </span> Conference Series: Material Science and Engineering (Indexed by WoS)(Submitted)</li>
+                        <li>Few selected and extended papers will be published in
+                        <ul>
+                            <li>IET Edited Book "Disease Analysis and Prediction using Data Science" (indexed by Scopus & WoS)(submitted)</li>
+                            <li>Taylor & Francis Edited book "Data science for Disease Prediction"</li>
+                            <li>More to be updated soon.</li>
+                        </ul>
+                        </li>
+                    </ul>
                 </div>
-                <p className="text-center">Indexed by:</p>
-                <div className="indexers row justify-content-center">
-                    <div className="col- mx-1 my-1"><img src={Scopus} alt="" height="100px" width="250px" /></div>
-                    <div className="col- mx-1 my-1"><img src={Sjr} alt="" height="100px" width="150px"/></div>
-                    <div className="col- mx-1 my-1"><img src={Compendex} alt="" height="80px" width="80px"/><p className="text-center color-0e487e">Compendex</p></div>
-                </div>
-                <p className="text-custom text-center mt-5">All the accepted full length papers will be published in the
-                <br/><span className="color-yellow">IOP Conference Series: Material Science and Engineering</span>
-                </p>
+
             </div>
         </div>
      );

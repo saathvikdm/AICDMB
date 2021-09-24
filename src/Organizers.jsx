@@ -6,6 +6,7 @@ import Gururaj from "./assets/faculty/gururaj.png";
 import Hod from "./assets/faculty/rkumar.png";
 import Rnd from "./assets/faculty/rnd.png";
 import Reg_cc_2 from "./assets/faculty/Committee Asset/BG-R/reg_cc_2.jpg";
+import Bulent from './assets/faculty/Committee Asset/bulent.jpg'
 
 import Spon_cc_1 from "./assets/faculty/Committee Asset/BG-R/spon_cc_1.jpg";
 import Spon_cc_2 from "./assets/faculty/Committee Asset/BG-R/spon_cc_2.jpg";
@@ -14,6 +15,10 @@ import Scs from "./assets/faculty/Committee Asset/BG-R/scs.jpg";
 import Dcs from "./assets/faculty/Committee Asset/BG-R/dcs.jpg";
 import Rcs from "./assets/faculty/Committee Asset/BG-R/rcs.jpg";
 import Ppr from "./assets/faculty/Committee Asset/BG-R/ppr.jpg";
+import Sunil from "./assets/faculty/Committee Asset/sunil.jpg";
+
+import Fadi from './assets/faculty/Committee Asset/fadi.jpg'
+import Kurt from './assets/faculty/Committee Asset/kurt.jpg'
 
 import Web_cc_3 from "./assets/faculty/Committee Asset/BG-R/web_cc_3.jpg";
 import Vvs_prez from "./assets/faculty/Committee Asset/Patrons/vvs_prez.jpg";
@@ -75,7 +80,25 @@ const Organizers = () => {
           </div>
         </div>
       </div>
-      <h1 className="display-5 text-center mt-5">Organizing Chairs</h1>
+
+      <h1 className="display-5 text-center mt-5">Co-Patron</h1>
+      <hr className="ruler" style={{ width: "50px" }} />
+      <div class="profile-card-container">
+        <div class="profile-card" style={{ height: "420px" }}>
+          <div class="profileImage">
+            <img src={Kurt} alt="" className="staff-img" />
+          </div>
+          <div class="profileHead">
+            <h4 class="profileHeadText">Prof. Dr. Mustafa KURT</h4>
+            {/* <h5 className="text-center">General Chair</h5> */}
+            <p className="speaker-desc text-center">Vice Rector <br />
+            Near East University, Turkey</p>
+          </div>
+        </div>       
+      </div>
+
+
+      <h1 className="display-5 text-center mt-5">General Co-Chairs</h1>
       <hr className="ruler" style={{ width: "200px" }} />
       <div class="profile-card-container">
         <div class="profile-card" style={{ height: "420px" }}>
@@ -102,6 +125,25 @@ const Organizers = () => {
         </div>
         <div class="profile-card" style={{ height: "420px" }}>
           <div class="profileImage">
+            <img src={Bulent} alt="" className="staff-img" height="100%" width="100%"/>
+          </div>
+          <div class="profileHead">
+            <h4 class="profileHeadText">Prof. Dr. Bülent BİLGEHAN</h4>
+            <h5 className="text-center">General Co-Chair</h5>
+            <p className="speaker-desc text-center">
+            Dean - Faculty of Engineering, <br/> Near East University, Turkey
+            </p>
+          </div>
+        </div>
+      </div>
+
+{/* publication co chair DR fadi */}
+
+      <h1 className="display-5 text-center mt-5">Program Co-Chairs</h1>
+      <hr className="ruler" style={{ width: "200px" }} />
+      <div class="profile-card-container">
+        <div class="profile-card" style={{ height: "420px" }}>
+          <div class="profileImage">
             <img src={Hod} alt="" className="staff-img" />
           </div>
           <div class="profileHead">
@@ -125,18 +167,39 @@ const Organizers = () => {
             </p>
           </div>
         </div>
-        
       </div>
+
+      <h1 className="display-5 text-center mt-5">Publication Chair</h1>
+      <hr className="ruler" style={{ width: "200px" }} />
+      <div class="profile-card-container">
+        <div class="profile-card" style={{ height: "420px" }}>
+          <div class="profileImage">
+            <img src={Fadi} alt="" className="staff-img"  height="100%" width="100%"/>
+          </div>
+          <div class="profileHead">
+            <h4 class="profileHeadText">Prof. Dr. Fadi Al-Turjman</h4>
+            <p className="speaker-desc text-center">
+            Associate Dean for Research <br />
+            Head of the Department of Artificial Intelligence Engineering<br />
+Near East University, Turkey
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h1 className="display-5 text-center mt-5">Organizing Co-Chairs</h1>
+      <hr className="ruler" style={{ width: "200px" }} />
       <div className="container">
         <div className="row_center mt-5">
-          <Staffcard img={Spon_cc_1} name="Dr. Janhavi V" designation="Associate Professor, VVCE" qualification="Publication Co-Chair" />
-          <Staffcard img={Scs} name="Prof. Shraddha C" designation="Associate Professor, VVCE" qualification="Publication Co-Chair" />
-          <Staffcard img={Dcs} name="Prof. Divya C D" designation="Associate Professor, VVCE" qualification="Publication Co-Chair" />
-          <Staffcard img={Rcs} name="Prof. Radhika A D" designation="Assistant Professor, VVCE" qualification="Publication Co-Chair" />
-          <Staffcard img={Web_cc_3} name="Prof. Rakesh K R" designation="Assistant Professor, VVCE" qualification="Publication Co-Chair" />
-          <Staffcard img={Reg_cc_2} name="Prof. Harshitha K" designation="Assistant Professor, VVCE" qualification="Publication Co-Chair" />
-          <Staffcard img={Spon_cc_2} name="Prof. Swathi B H" designation="Assistant Professor, VVCE" qualification="Publication Co-Chair" />
-          <Staffcard img={Ppr} name="Prof. Pruthvi P R" designation="Assistant Professor, VVCE" qualification="Publication Co-Chair" />
+          <Staffcard img={Spon_cc_1} name="Dr. Janhavi V" designation="Associate Professor, VVCE" />
+          <Staffcard img={Scs} name="Prof. Shraddha C" designation="Assistant Professor, VVCE"  />
+          <Staffcard img={Dcs} name="Prof. Divya C D" designation="Assistant Professor, VVCE"  />
+          <Staffcard img={Rcs} name="Prof. Radhika A D" designation="Assistant Professor, VVCE"  />
+          <Staffcard img={Web_cc_3} name="Prof. Rakesh K R" designation="Assistant Professor, VVCE"  />
+          <Staffcard img={Reg_cc_2} name="Prof. Harshitha K" designation="Assistant Professor, VVCE"  />
+          <Staffcard img={Spon_cc_2} name="Prof. Swathi B H" designation="Assistant Professor, VVCE"  />
+          <Staffcard img={Ppr} name="Prof. Pruthvi P R" designation="Assistant Professor, VVCE"  />
+          <Staffcard img={Sunil} name="Prof. Sunil Kumar B R" designation="Assistant Professor, VVCE"  />
         </div>
         <h1 className="display-5 text-center mt-5">
           Advisory and Review Committee
