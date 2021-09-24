@@ -12,7 +12,7 @@ const Publication = () => {
                 
                 <h1 className="display-5 text-center mb-5">Publication</h1>
                 <div className="div-bg-col">
-                    <ul style={{fontSize: '2em'}}>
+                    <ul style={{fontSize: '1.3em'}}>
                         <li>All the accepted and presented papers will be published in <span className="color-red">IOP </span> Conference Series Material Science (Indexed by WoS)(Submitted)</li>
                         <li>Few selected papers will be published in
                         <ul>
