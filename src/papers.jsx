@@ -14,14 +14,13 @@ const PapersPage = () => {
           {/* <div className="col-12 col-lg-5 order-md-1"><img src={Papers} alt="" height="100%" width="100%"/></div> */}
           <div className="cforp col-12">
             <p className="lead text-justify mt-4">
-              AICDMB 2021 warmly invites full length original research papers
+              AICDMB 2022 warmly invites full length original research papers
               describing latest findings and research works to the conference
               from academic professionals, R&D organizations, government
               departments and research scholars from across the globe. The
               manuscripts must contribute original ideas and should not have
               been published in any journals, conference proceedings or
-              magazines and not under review in any of them. IOP manuscript
-              template to be used.
+              magazines and not under review in any of them.
               <br />
               <br />
               The soft copy of full length manuscripts shall be shared in .PDF
