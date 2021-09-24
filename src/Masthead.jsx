@@ -3,7 +3,7 @@ import "./components/navbar/CustomStyle.css";
 import Aicte from "./assets/aicte.png";
 import Acm from "./assets/ACMO.svg";
 import Vvce from "./assets/vvce.png";
-import Neu from "./assets/neu.png";
+import Neu from "./assets/neuwt.png";
 import Cse from "./assets/indexers/cse.png";
 import AICDMB_BRAIN from './assets/AICDMB22_single.svg'
 import img1 from "./assets/Carousel Images/1.jpg";

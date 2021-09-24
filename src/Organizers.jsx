@@ -91,7 +91,8 @@ const Organizers = () => {
           <div class="profileHead">
             <h4 class="profileHeadText">Prof. Dr. Mustafa KURT</h4>
             {/* <h5 className="text-center">General Chair</h5> */}
-            <p className="speaker-desc text-center">Vice Rector</p>
+            <p className="speaker-desc text-center">Vice Rector <br />
+            Near East University, Turkey</p>
           </div>
         </div>       
       </div>
@@ -130,7 +131,7 @@ const Organizers = () => {
             <h4 class="profileHeadText">Prof. Dr. Bülent BİLGEHAN</h4>
             <h5 className="text-center">General Co-Chair</h5>
             <p className="speaker-desc text-center">
-              Dean (R&D) of VVCE, Mysuru
+            Dean - Faculty of Engineering, <br/> Near East University, Turkey
             </p>
           </div>
         </div>
@@ -178,7 +179,9 @@ const Organizers = () => {
           <div class="profileHead">
             <h4 class="profileHeadText">Prof. Dr. Fadi Al-Turjman</h4>
             <p className="speaker-desc text-center">
-            Rector
+            Associate Dean for Research <br />
+            Head of the Department of Artificial Intelligence Engineering<br />
+Near East University, Turkey
             </p>
           </div>
         </div>
