@@ -41,6 +41,8 @@ body {
   /* background: linear-gradient(to right, rgb(131, 96, 195), rgb(46, 191, 145)); */
   /* background: linear-gradient(to right, rgb(0, 90, 167), rgb(255, 253, 228)); */
   color: #fff;
+  height: 100vh;
+  z-index: 90;
 }
 
 .lead-img {
@@ -156,4 +158,13 @@ body {
   .details-text {
     font-size: 2vh;
   }
+}
+
+.fullBackground img {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  height: 100vh;
+  opacity: 0.08;
+  width: 95vw;
 }

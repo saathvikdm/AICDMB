@@ -13,12 +13,16 @@ import Footer from "./Footer";
 import Organizers from "./Organizers";
 import Register from "./register";
 import Aicdmb21 from "./Aicdmb21";
+import Guidelines from "./Guidelines";
 
 function App() {
   return (
     <div className="root-file">
       <Navbar />
       <Switch>
+        <Route exact path="/guidelines">
+          <Guidelines />
+        </Route>
         <Route exact path="/register">
           <Register />
         </Route>

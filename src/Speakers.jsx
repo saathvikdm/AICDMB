@@ -1,10 +1,8 @@
 import React from "react";
-import Hong from "./assets/speakers/honglin.jpg";
-import Anand from "./assets/speakers/anand.jpg";
-import Heena from "./assets/speakers/heena.jpg";
 import "./SpeakerStyle.css";
-import Placeholder from './assets/speakers/placeholder.jpg'
-import Paolo from "./assets/speakers/paolo.jpg";
+
+import Anand from "./assets/speakers/anand.jpg";
+import Flammini from './assets/speakers/flammini.jpg'
 
 const Speakers = () => {
   return (
@@ -14,54 +12,19 @@ const Speakers = () => {
       <div class="profile-card-container">
         <div class="profile-card">
           <div class="profileImage">
-            <img src={Placeholder} alt="" className="staff-img" />
-          </div>
-          <div class="profileHead">
-            <h4 class="profileHeadText">John Doe</h4>
-            <p class="profileSmallDescription">
-              Ph.D., Professor at University of ABC
-            </p>
-          </div>
-          <div class="profileContent">
-            <p class="profileDescription">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero saepe dolore iusto culpa ipsa atque dignissimos rem? Aspernatur architecto, vel doloremque ducimus, exercitationem eaque ipsa dicta ad repellendus magni quisquam.
-            </p>
-          </div>
-        </div>
-
-        <div class="profile-card">
-          <div class="profileImage">
-            <img src={Placeholder} alt="" className="staff-img" />
-          </div>
-          <div class="profileHead mb-1 pb-0">
-            <h4 class="profileHeadText">John Doe</h4>
-            <p class="profileSmallDescription">
-              ACM Distinguished Speaker
-              <br />
-              Assistant Professor at University of CAB
-            </p>
-          </div>
-          <div class="profileContent">
-            <p class="profileDescription">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, dolores! Quaerat temporibus voluptas necessitatibus consequuntur earum consectetur ea nesciunt impedit. Pariatur, culpa. Molestiae reiciendis perspiciatis voluptatum dolor earum quia accusantium.
-            </p>
-          </div>
-        </div>
-
-        <div class="profile-card">
-          <div class="profileImage">
-            <img src={Placeholder} alt="" className="staff-img" />
+            <img src={Flammini} alt="" className="staff-img" />
           </div>
           <div class="profileHead pb-0 mb-1">
-            <h4 class="profileHeadText">John Doe</h4>
+            <h4 class="profileHeadText">Dr. Francesco Flammini</h4>
             <p class="profileSmallDescription">
-              Ph.D., Associate Professor of Computer Engineering, University of
-              XYZ
+            University of Applied Sciences and Arts of Southern Switzerland (CH)
             </p>
           </div>
           <div class="profileContent">
             <p class="profileDescription">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores facere corrupti eaque eligendi eius dicta minus deleniti cumque vel, autem quod et inventore fuga itaque a reprehenderit temporibus voluptates nisi?
+            Since January 2020, Francesco Flammini is a Full Professor of Computer Science with a focus on Cyber-Physical Systems at Mälardalen University (MDH page).
+
+He has been a Senior Lecturer and an Associate Professor ("Docent") in Computer Science at the Department of Computer Science and Media Technology of Linnaeus University. He has led the Cyber-Physical Systems (CPS) research and education area within the Smarter Systems complete knowledge environment.
             </p>
           </div>
         </div>

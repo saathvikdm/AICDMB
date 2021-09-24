@@ -20,7 +20,7 @@ class Navbar extends Component {
   render() {
     const { toggle } = this.state;
     return (
-      <div>
+      <div style={{zIndex: '99'}}>
         <div className="flex-container">
           <ul className="uList">
             <li className="logo">
@@ -36,6 +36,7 @@ class Navbar extends Component {
               id="nav-icon"
               className={toggle ? "open" : null}
               onClick={this.openFunc}
+              style={{zIndex: '99'}}
             >
               <span></span>
               <span></span>
@@ -65,12 +66,7 @@ class Navbar extends Component {
                 <Link to="/publication">Publication</Link>
               </li>
               <li>
-                <a
-                  href="https://publishingsupport.iopscience.iop.org/author-guidelines-for-conference-proceedings/"
-                  target="_blank" rel="noopener noreferrer"
-                >
-                  Author Guidelines
-                </a>
+                <Link to="/guidelines">Author Guidelines</Link>
               </li>
               <li>
                 <Link to="/register">Registration</Link>
