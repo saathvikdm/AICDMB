@@ -14,7 +14,7 @@ const Publication = () => {
                 <div className="div-bg-col">
                     <ul style={{fontSize: '1.3em'}}>
                         <li>All the accepted and presented papers will be published in <span className="color-red">IOP </span> Conference Series: Material Science and Engineering <span className="color-red">(Indexed by WoS)</span>(Submitted)</li>
-                        <li>Few selected and extended papers will be published in
+                        <li>All extended papers of the conference will be published in
                         <ul>
                             <li>IET Edited Book "Disease Analysis and Prediction using Data Science" <span className="color-red">(indexed by Scopus & WoS)</span>(Submitted)</li>
                             <li>Taylor & Francis Edited Book "Data science for Disease Prediction" <span className="color-red">(Indexed by Scopus & WoS)</span>(Submitted)</li>

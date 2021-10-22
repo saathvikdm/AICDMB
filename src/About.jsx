@@ -33,7 +33,7 @@ const About = () => {
                 <tr>
                   <td>Paper Submission Deadline</td>
                   <td>
-                    October 20, 2021
+                    October 31, 2021
                   </td>
                 </tr>
                 <tr>
