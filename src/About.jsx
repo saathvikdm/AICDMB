@@ -32,9 +32,7 @@ const About = () => {
               <tbody>
                 <tr>
                   <td>Paper Submission Deadline</td>
-                  <td>
-                    October 31, 2021
-                  </td>
+                  <td>November 20, 2021</td>
                 </tr>
                 <tr>
                   <td>Paper Acceptance Notification</td>
@@ -56,7 +54,6 @@ const About = () => {
                 class="text-center mb-4 mt-4 btn btn-alt mb-3 btn-border btn-border"
                 target="_blank"
                 rel="noopener noreferrer"
-                
               >
                 Submit Now!
               </a>
@@ -64,7 +61,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      
+
       <div id="about" className="container about-section">
         <h1 className="display-5 text-center">About the Conference</h1>
         <hr className="ruler" />
