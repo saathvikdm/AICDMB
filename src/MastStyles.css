@@ -23,3 +23,8 @@
 .hide {
   display: none;
 }
+
+.sponsored-img {
+  background: white;
+  border-radius: 3em;
+}

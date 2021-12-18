@@ -43,7 +43,7 @@ const Masthead = () => {
           <div className="col-md-8 order-md-1 text-center text-md-left pr-md-5">
             <h1 className="spons-text mt-2">Sponsored by</h1>
             <img
-              className="mt-lg-ed5"
+              className="mt-lg-ed5 mb-4 mt-1 sponsored-img"
               src={INSERB}
               alt=""
               height="100px"
