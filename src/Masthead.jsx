@@ -7,7 +7,7 @@ import Neu from "./assets/neuwt.png";
 import Cse from "./assets/indexers/cse.png";
 import AICDMB_BRAIN from "./assets/AICDMB22_single.svg";
 import img1 from "./assets/Carousel Images/1.jpg";
-import INSERB from "./assets/iNSERB2.png";
+import INSERB from "./assets/iNSERB_.png";
 import "./MastStyles.css";
 import ExternalSolid from "./assets/external-link-alt-solid.svg";
 import { Link } from "react-router-dom";
