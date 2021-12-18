@@ -7,6 +7,7 @@ import Neu from "./assets/neuwt.png";
 import Cse from "./assets/indexers/cse.png";
 import AICDMB_BRAIN from "./assets/AICDMB22_single.svg";
 import img1 from "./assets/Carousel Images/1.jpg";
+import INSERB from "./assets/iNSERB2.png";
 import "./MastStyles.css";
 import ExternalSolid from "./assets/external-link-alt-solid.svg";
 import { Link } from "react-router-dom";
@@ -40,14 +41,14 @@ const Masthead = () => {
             />
           </div>
           <div className="col-md-8 order-md-1 text-center text-md-left pr-md-5">
-            {/* <img
+            <h1 className="spons-text mt-2">Sponsored by</h1>
+            <img
               className="mt-lg-ed5"
-              src={Aicte}
+              src={INSERB}
               alt=""
               height="100px"
-              width="100px"
-            /> */}
-            {/* <h1 className="spons-text mt-2">AICTE Sponsored</h1> */}
+              // width="100px"
+            />
             <h1 className="mb-1 mastHead lead-text">AICDMB 2022</h1>
             <h2 className="desc">
               <span className="custom-text-col">Third</span> Annual
