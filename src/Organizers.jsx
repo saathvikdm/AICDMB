@@ -124,7 +124,7 @@ const Organizers = () => {
             </p>
           </div>
         </div>
-        <div class="profile-card" style={{ height: "420px" }}>
+        {/* <div class="profile-card" style={{ height: "420px" }}>
           <div class="profileImage">
             <img
               src={Bulent}
@@ -141,7 +141,7 @@ const Organizers = () => {
               Dean - Faculty of Engineering, <br /> Near East University, Turkey
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* publication co chair DR fadi */}
