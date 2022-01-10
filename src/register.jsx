@@ -10,7 +10,7 @@ const Register = () => {
         <div class="reg-card">
           <div class="reg-price">
             <h3>
-              <span className="reg-rupee">₹</span> 5000 / $70{" "}
+              <span className="reg-rupee">₹</span> 6000 / $81{" "}
             </h3>
           </div>
           <ul>
@@ -28,7 +28,7 @@ const Register = () => {
         <div class="reg-card">
           <div class="reg-price">
             <h3>
-              <span className="reg-rupee">₹</span> 5500 / $80
+              <span className="reg-rupee">₹</span> 6500 / $88
             </h3>
           </div>
           <ul>
