@@ -41,7 +41,6 @@ body {
   /* background: linear-gradient(to right, rgb(131, 96, 195), rgb(46, 191, 145)); */
   /* background: linear-gradient(to right, rgb(0, 90, 167), rgb(255, 253, 228)); */
   color: #fff;
-  height: 100vh;
   z-index: 90;
 }
 

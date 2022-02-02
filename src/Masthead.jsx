@@ -8,9 +8,12 @@ import Cse from "./assets/indexers/cse.png";
 import AICDMB_BRAIN from "./assets/AICDMB22_single.svg";
 import img1 from "./assets/Carousel Images/1.jpg";
 import INSERB from "./assets/iNSERB_.png";
+import Invite from "./assets/AICDMB_invitation.pdf";
 import "./MastStyles.css";
 import ExternalSolid from "./assets/external-link-alt-solid.svg";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTimes, faDownload } from "@fortawesome/free-solid-svg-icons";
 
 const Masthead = () => {
   const handleClose = () => {
@@ -20,15 +23,24 @@ const Masthead = () => {
 
   return (
     <div className="bd-masthead">
-      {/* <div className="fullBanner" id="banner">
-        Alert! Paper Submission Final Deadline has been extended until December
-        15, 2020
+      <div className="fullBanner" id="banner">
+        <a
+          href={Invite}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "inherit" }}
+        >
+          <span>
+            <FontAwesomeIcon icon={faDownload} />
+            &nbsp;&nbsp;Invitation for Inaugural & Valedictory Ceremony
+          </span>
+        </a>
         <FontAwesomeIcon
           className="closeBtn"
           icon={faTimes}
           onClick={handleClose}
         />
-      </div> */}
+      </div>
       <div className="container">
         <div className="row">
           <div className="col-6 mx-auto my-auto col-md-4 order-md-2">
